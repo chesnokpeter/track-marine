@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marine Mammals</title>
+</head>
+<body>
+    <main></main>
+        <h2>Список водных животных</h2>
+        <table class="animal-table">
+            <thead>
+                <tr>
+                    <th>Вид</th>
+                    <th>Имя</th>
+                    <th>Вес</th>
+                    <th>Пол</th>
+                    <th>Возраст</th>
+                    <th>Координаты</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Дельфин</td>
+                    <td>Флиппер</td>
+                    <td>80 кг</td>
+                    <td>М</td>
+                    <td>12 лет</td>
+                    <td>35.6895° N, 139.6917° E</td>
+                </tr>
+                <tr>
+                    <td>Кит</td>
+                    <td>Вилли</td>
+                    <td>30 тонн</td>
+                    <td>М</td>
+                    <td>25 лет</td>
+                    <td>36.2048° N, 138.2529° E</td>
+                </tr>
+                <tr>
+                    <td>Морская черепаха</td>
+                    <td>Тортилла</td>
+                    <td>150 кг</td>
+                    <td>Ж</td>
+                    <td>50 лет</td>
+                    <td>34.0522° N, 118.2437° W</td>
+                </tr>
+                <tr>
+                    <td>Акула</td>
+                    <td>Джози</td>
+                    <td>500 кг</td>
+                    <td>Ж</td>
+                    <td>15 лет</td>
+                    <td>27.9878° N, 86.9250° E</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+
+body {
+    margin: 20px;
+    font-family: "Caveat", cursive;
+    background-image: url('./back.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-size: 100% 100%; */
+
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.animal-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.animal-table th, .animal-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.animal-table th {
+    background-color: #008cba;
+    color: white;
+}
+
+.animal-table tr:nth-child(even) {
+    /* background-color: #f2f2f2; */
+}
+
+</style>
+
+</html>
